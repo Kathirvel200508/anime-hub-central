@@ -71,3 +71,21 @@ Yes, you can!
 To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
 Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+
+## Backend API
+
+A full Node.js + Express + MongoDB backend has been added in [`backend/`](backend).
+
+Quick start:
+
+```sh
+cd backend
+npm install
+cp .env.example .env
+npm run dev
+```
+
+See [`backend/README.md`](backend/README.md) for full API details and Vercel deployment steps.
+
+
+If your Vercel GitHub connection fails, you can still deploy from `backend/` using Vercel CLI (see `backend/README.md`).
